@@ -1,0 +1,115 @@
+@import 'corors';
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mulish', sans-serif;
+}
+
+:root {
+    --sariq-1: #FFB342;
+    --sariq-2: #FFC368;
+    --darkblue: #1C2752;
+    --darkblue-40: #1C275266;
+    --darkblue-86: #1C2752DB;
+    --darkblue-2: #2C3765;
+    --darkblue-3: #4B557D;
+    --oq: #FFFFFF;
+    --qora-2: #222222;
+    --kulrang: #7E7E7E;
+    --kulrang-2: #CCCCCC;
+    --light: #F4F4F4;
+    --light-2: #D2D2D2;
+    --light-3: #D7D7D7;
+    --light-4: #DCDCDC;
+    --light-5: #DDDDDD;
+    --light-6: #F2F2F2;
+    --light-20: #FFFFFF33;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+}
+
+.information {
+    width: 100%;
+    height: auto;
+    background-color: var(--light);
+}
+
+.information .info-box {
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.information .info-box .desc {
+    font: var();
+    letter-spacing: var();
+    text-align: left;
+}
+
+.information .info-box .social {
+    width: 156px;
+    height: 29px;
+    padding: 6px 10px 4px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-box {
+    width: 100%;
+    height: 128px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-box .contact-us {
+    display: flex;
+    align-items: center;
+}
+
+.contact-box .contact-us>div {
+    width: 257.84px;
+    height: 68px;
+    padding: 0px 0px 0px 0.25px;
+    display: flex;
+    align-items: center;
+    margin-left: 65px;
+}
+
+.contact-box .contact-us>div>div[class*="-logo"] {
+    width: 68px;
+    height: 68px;
+    border-radius: 100px;
+    background-color: var(--sariq-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.contact-box .contact-us>div>div.text h3 {
+    font: var(--conatact-h);
+    color: var(--darkblue);
+}
+
+.contact-box .contact-us>div>div.text a {
+    font: var(--desc-font);
+    color: var(--kulrang);
+}
