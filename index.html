@@ -2,61 +2,235 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BlueCollar Home Page</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Mulish&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Mulish&display=swap" rel="stylesheet" />
 </head>
 
 <body>
-    <button id="btn-top" style="display: none;"></button>
-    <div class="header" id="home">
-        <div class="information">
+    <button id="btn-top" style="display: none"></button>
+
+    <header class="header" id="home">
+        <section class="information">
             <div class="container">
                 <div class="info-box">
                     <p class="desc">Opening Hours: 06:00 to 20:00</p>
                     <div class="social">
-                        <a href="#" class="link"><img src="images/facebook.svg"></a>
-                        <a href="#" class="link"><img src="images/twitter.svg"></a>
-                        <a href="#" class="link"><img src="images/pinterest.svg"></a>
-                        <a href="#" class="link"><img src="images/instagram.svg"></a>
+                        <a href="#" class="link"><img src="images/facebook.svg" /></a>
+                        <a href="#" class="link"><img src="images/twitter.svg" /></a>
+                        <a href="#" class="link"><img src="images/pinterest.svg" /></a>
+                        <a href="#" class="link"><img src="images/instagram.svg" /></a>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="contact">
+        </section>
+        <section class="contact">
+            <div class="container">
+                <div class="contact-box">
+                    <a href="#" class="logo">
+                        <img src="images/header-logo.svg" alt="BlueCollar Logo" />
+                    </a>
+                    <div class="contact-us">
+                        <div class="mail">
+                            <div class="m-logo">
+                                <img src="images/mail-us.svg" />
+                            </div>
+                            <div class="text">
+                                <h3>Mail Us</h3>
+                                <a href="mailto:Info@bluecollar.com">Info@bluecollar.com</a>
+                            </div>
+                        </div>
+                        <div class="call">
+                            <div class="m-logo">
+                                <img src="images/call-us.svg" />
+                            </div>
+                            <div class="text">
+                                <h3>Call Us</h3>
+                                <a href="tel:+01569896654">+01 569 896 654</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <nav class="navbar">
         <div class="container">
-            <div class="contact-box">
-                <a href="#" class="logo">
-                    <img src="images/header-logo.svg" alt="Blue-Color logo">
-                </a>
-                <div class="contact-us">
-                    <div class="mail">
-                        <div class="m-logo">
-                            <img src="images/mail-us.svg">
+            <div class="navbar-box">
+                <div class="lists">
+                    <a href="#" class="item link-active">Home</a>
+                    <a href="#" class="item">About Us</a>
+                    <a href="#" class="item">Pages</a>
+                    <a href="#" class="item">Blog</a>
+                    <a href="#" class="item">Contact Us</a>
+                </div>
+                <button class="btn btn-any">Have Any Questions?</button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-box">
+                <p class="description">Improve our customers’ lives by providing effective solutions.</p>
+                <h2 class="big-title">A recognized leader in services industry</h2>
+                <button class="btn btn-s">View Services</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="welcome">
+        <div class="container">
+            <div class="welcome-box">
+                <img src="images/welcome-img.png" class="welcome-img">
+                <div class="welcome-right">
+                    <p class="wel-desc">Welcome BlueCollar</p>
+                    <h2 class="title">We Provide Your Future</h2>
+                    <p class="desc">Bluecollar Electrical services was established in 2008. We are trusted and reliable electricians who serve customers in the city as well as throughout United States Of America.</p>
+                    <p class="desc">We have extensive experience of domestic and business electrical installations and no job is too small. Our customers value our professionalism, work ethic and our competitive prices.</p>
+                    <div class="years">
+                        <div class="left">
+                            <h2 class="son">35</h2>
+                            <p class="matn">Years Of Experience</p>
                         </div>
-                        <div class="text">
-                            <h3>Mail Us</h3>
-                            <a href="mailto:doniyorxoliqov591@gmail.com">Info@bluecollar.com</a>
-                        </div>
-                    </div>
-                    <div class="call">
-                        <div class="m-logo">
-                            <img src="images/call-us.svg">
-                        </div>
-                        <div class="text">
-                            <h3>Call Us</h3>
-                            <a href="tel:+998917000530">+01 569 896 654</a>
+                        <div class="right">
+                            <p class="r-item">- For all your system requirements</p>
+                            <p class="r-item">- All work undertaken by qualified</p>
+                            <p class="r-item">- Experienced office staff on hand</p>
+                            <p class="r-item">- A Full Guarantee On Workmanship</p>
+                            <p class="r-item">- Properties at a reasonable price.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section class="main-services">
+        <div class="container">
+            <div class="ms-content">
+                <p class="wel-desc">What We Offer</p>
+                <h2 class="title">Professional Main Services</h2>
+                <p class="desc">We have extensive experience of domestic and business electrical installations and no job is too small. Our customers value our professionalism, work ethic and our competitive prices.</p>
+                <div class="buttons">
+                    <button class="btn btn-1 btn-active">Commercial</button>
+                    <button class="btn btn-2">Residential</button>
+                    <button class="btn btn-3">Industrial</button>
+                </div>
+                <div class="bottom-box">
+                    <div class="box-text">
+                        <p class="elec">Electrical installation</p>
+                        <h2 class="title">Commercial</h2>
+                        <p class="desc">Electrical & Maintenance Services Ltd offers a full range of electrical services to suit your needs – from moving a light switch to complete house rewires.</p>
+                        <p class="desc">In addition to providing fully qualified, competent electricians in and around London, the company also runs an electrical wholesale shop.</p>
+                        <button class="btn btn-sariq">Read More</button>
+                    </div>
+                    <div class="image">
+                        <img src="images/main-services-img.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="our-services">
+        <div class="container">
+            <div class="os-content">
+                <p class="write">Area Of Service</p>
+                <h2 class="title">Our Services</h2>
+                <p class="desc">We offers a comprehensive range of electrical services for domestic and commercial properties at a reasonable price.</p>
+                <div class="cards">
+                    <div class="card" style="margin-bottom: 30px;">
+                        <img src="images/card-1.png">
+                        <h3 class="card-title">Air condition service</h3>
+                        <p class="card-desc">Services are able to service your entire electrical infrastructure from Thermal Imaging of your air condition from switch boards.</p>
+                        <button class="btn vm-btn">View More</button>
+                    </div>
+                    <div class="card">
+                        <img src="images/card-2.png">
+                        <h3 class="card-title">Electrical installation</h3>
+                        <p class="card-desc fs-17">The art electrical installations that provide all the necessary electrical solutions to suit your business, home or industrial premises.</p>
+                        <button class="btn vm-btn">View More</button>
+                    </div>
+                    <div class="card">
+                        <img src="images/card-3.png">
+                        <h3 class="card-title">General Builder</h3>
+                        <p class="card-desc">We provide impeccable safety assessments to both commercial, residential properties. Our adept & knowledgeable electricians.</p>
+                        <button class="btn vm-btn">View More</button>
+                    </div>
+                    <div class="card">
+                        <img src="images/card-4.png">
+                        <h3 class="card-title">Security System</h3>
+                        <p class="card-desc fs-17">Utilized for measuring flow, temperature level & pressure in the manufacturing industry array of technology is ensure productivity.</p>
+                        <button class="btn vm-btn">View More</button>
+                    </div>
+                    <div class="card">
+                        <img src="images/card-5.png">
+                        <h3 class="card-title">Service & maintenance</h3>
+                        <p class="card-desc">Electrical Services are able to service your entire electrical infrastructure from Thermal Imaging of your switch boards.</p>
+                        <button class="btn vm-btn">View More</button>
+                    </div>
+                    <div class="card">
+                        <img src="images/card-6.png">
+                        <h3 class="card-title">House Extensions</h3>
+                        <p class="card-desc">Traditionally, electricity is supplied through overhead network poles, where the cable is connected to your building.</p>
+                        <button class="btn vm-btn">View More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-us">
+        <div class="container">
+            <div class="wu-content">
+                <div class="left">
+                    <div class="list">
+                        <p class="item">
+                            <span>3956</span>
+                            <span>Project Done</span>
+                        </p>
+                        <p class="item">
+                            <span>854</span>
+                            <span>People Working</span>
+                        </p>
+                        <p class="item">
+                            <span>265</span>
+                            <span>Business Partners</span>
+                        </p>
+                        <p class="item">
+                            <span>845+</span>
+                            <span>Happy Customers</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="right">
+                    <p class="write">Why Choose Us</p>
+                    <h2 class="title">Few Reasons Why You Should Choose Us</h2>
+                    <p class="desc">We are offering the following information's about us that what we actually do in the electrical sector. To Improve our customers’ lives by providing creative and cost-effective solutions to their needs.</p>
+                    <div class="r-list">
+                        <div class="item">
+                            <h4 class="item-title">35 Years Experience</h4>
+                            <p class="item-desc">Effective communication is the key to success for any business. From our office staff, to our field.</p>
+                        </div>
+                        <div class="item">
+                            <h4 class="item-title">Excellence Certificate</h4>
+                            <p class="item-desc">We understand fully that your time is of extreme value. We are committed to meeting deadlines.</p>
+                        </div>
+                        <div class="item">
+                            <h4 class="item-title">Affordable Price</h4>
+                            <p class="item-desc">We adhere strictly to the current National Electrical Code, and we conduct regular in-house sessions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="js/main.js"></script>
 </body>
